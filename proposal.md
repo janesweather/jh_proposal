@@ -63,8 +63,8 @@ To align all stakeholders on the project's goals, scope, timelines, and responsi
 
 | Type             | Rate (hour)     | Hours | Total    |
 |------------------|-----------------|-------|----------|
-| Project Manager  | $200            | 43    | N/A      |
-| Business Analyst | $180            | 43    | N/A      |
+| Project Manager  | $X              | 43    | N/A      |
+| Business Analyst | $X              | 43    | N/A      |
 | **Phase Total**  |                 | 86    | N/A      |
 
 ### <a name='Stages'></a>Stages
