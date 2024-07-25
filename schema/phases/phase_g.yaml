@@ -1,0 +1,257 @@
+id: G
+name: Development
+objective: >
+  To build, test, and deploy the features and functionalities as outlined in the project plan, following Agile methodologies, and ensure continuous feedback and improvements.
+est_phase_hours: 1000
+est_personnel:
+  - personnel_type_id: 1
+    type: Project Manager
+    hours: 80
+  - personnel_type_id: 2
+    type: Business Analyst
+    hours: 540
+  - personnel_type_id: 4
+    type: Product Owner
+    hours: 80
+  - personnel_type_id: 6
+    type: Frontend Engineer
+    hours: 540
+  - personnel_type_id: 7
+    type: Backend Engineer
+    hours: 540
+  - personnel_type_id: 8
+    type: Cloud Engineer
+    hours: 540
+  - personnel_type_id: 9
+    type: Data Engineer
+    hours: 540
+  - personnel_type_id: 10
+    type: AI Engineer
+    hours: 540
+stages:
+  - id: 1
+    name: Sprint Planning and Backlog Grooming
+    est_stage_hours: 20
+    est_personnel:
+      - personnel_type_id: 1
+        type: Project Manager
+        hours: 20
+      - personnel_type_id: 2
+        type: Business Analyst
+        hours: 20
+      - personnel_type_id: 4
+        type: Product Owner
+        hours: 20
+      - personnel_type_id: 6
+        type: Frontend Engineer
+        hours: 20
+      - personnel_type_id: 7
+        type: Backend Engineer
+        hours: 20
+      - personnel_type_id: 8
+        type: Cloud Engineer
+        hours: 20
+      - personnel_type_id: 9
+        type: Data Engineer
+        hours: 20
+      - personnel_type_id: 10
+        type: AI Engineer
+        hours: 20
+    activities:
+      - id: 1
+        name: Sprint Planning and Backlog Grooming
+        description:
+          - Conduct a sprint planning meeting to finalise the sprint backlog and set sprint goals.
+          - Refine and prioritise the sprint backlog.
+          - Estimate the effort required for each task and assign story points.
+        est_activity_hours: 20
+        est_personnel:
+          - personnel_type_id: 4
+            type: Product Owner
+            hours: 20
+          - personnel_type_id: 1
+            type: Project Manager
+            hours: 20
+          - personnel_type_id: 2
+            type: Business Analyst
+            hours: 20
+          - personnel_type_id: 6
+            type: Frontend Engineer
+            hours: 20
+          - personnel_type_id: 7
+            type: Backend Engineer
+            hours: 20
+          - personnel_type_id: 8
+            type: Cloud Engineer
+            hours: 20
+          - personnel_type_id: 9
+            type: Data Engineer
+            hours: 20
+          - personnel_type_id: 10
+            type: AI Engineer
+            hours: 20
+  - id: 2
+    name: Sprint Execution
+    est_stage_hours: 480
+    est_personnel:
+      - personnel_type_id: 2
+        type: Business Analyst
+        hours: 480
+      - personnel_type_id: 6
+        type: Frontend Engineer
+        hours: 480
+      - personnel_type_id: 7
+        type: Backend Engineer
+        hours: 480
+      - personnel_type_id: 8
+        type: Cloud Engineer
+        hours: 480
+      - personnel_type_id: 9
+        type: Data Engineer
+        hours: 480
+      - personnel_type_id: 10
+        type: AI Engineer
+        hours: 480
+    activities:
+      - id: 1
+        name: Feature Development
+        description:
+          - Develop features as per the sprint backlog.
+        est_activity_hours: 480
+        est_personnel:
+          - personnel_type_id: 2
+            type: Business Analyst
+            hours: 480
+          - personnel_type_id: 6
+            type: Frontend Engineer
+            hours: 480
+          - personnel_type_id: 7
+            type: Backend Engineer
+            hours: 480
+          - personnel_type_id: 8
+            type: Cloud Engineer
+            hours: 480
+          - personnel_type_id: 9
+            type: Data Engineer
+            hours: 480
+          - personnel_type_id: 10
+            type: AI Engineer
+            hours: 480
+  - id: 3
+    name: Sprint Review
+    est_stage_hours: 20
+    est_personnel:
+      - personnel_type_id: 1
+        type: Project Manager
+        hours: 20
+      - personnel_type_id: 2
+        type: Business Analyst
+        hours: 20
+      - personnel_type_id: 4
+        type: Product Owner
+        hours: 20
+      - personnel_type_id: 6
+        type: Frontend Engineer
+        hours: 20
+      - personnel_type_id: 7
+        type: Backend Engineer
+        hours: 20
+      - personnel_type_id: 8
+        type: Cloud Engineer
+        hours: 20
+      - personnel_type_id: 9
+        type: Data Engineer
+        hours: 20
+      - personnel_type_id: 10
+        type: AI Engineer
+        hours: 20
+    activities:
+      - id: 1
+        name: Sprint Review
+        description:
+          - Demonstrate the completed features to stakeholders.
+        est_activity_hours: 20
+        est_personnel:
+          - personnel_type_id: 1
+            type: Project Manager
+            hours: 20
+          - personnel_type_id: 2
+            type: Business Analyst
+            hours: 20
+          - personnel_type_id: 4
+            type: Product Owner
+            hours: 20
+          - personnel_type_id: 6
+            type: Frontend Engineer
+            hours: 20
+          - personnel_type_id: 7
+            type: Backend Engineer
+            hours: 20
+          - personnel_type_id: 8
+            type: Cloud Engineer
+            hours: 20
+          - personnel_type_id: 9
+            type: Data Engineer
+            hours: 20
+          - personnel_type_id: 10
+            type: AI Engineer
+            hours: 20
+  - id: 4
+    name: Sprint Retrospective
+    est_stage_hours: 20
+    est_personnel:
+      - personnel_type_id: 1
+        type: Project Manager
+        hours: 20
+      - personnel_type_id: 2
+        type: Business Analyst
+        hours: 20
+      - personnel_type_id: 4
+        type: Product Owner
+        hours: 20
+      - personnel_type_id: 6
+        type: Frontend Engineer
+        hours: 20
+      - personnel_type_id: 7
+        type: Backend Engineer
+        hours: 20
+      - personnel_type_id: 8
+        type: Cloud Engineer
+        hours: 20
+      - personnel_type_id: 9
+        type: Data Engineer
+        hours: 20
+      - personnel_type_id: 10
+        type: AI Engineer
+        hours: 20
+    activities:
+      - id: 1
+        name: Retrospective Meeting
+        description:
+          - Conduct a retrospective meeting to discuss what went well, what didn't, and how to improve.
+        est_activity_hours: 20
+        est_personnel:
+          - personnel_type_id: 1
+            type: Project Manager
+            hours: 20
+          - personnel_type_id: 2
+            type: Business Analyst
+            hours: 20
+          - personnel_type_id: 4
+            type: Product Owner
+            hours: 20
+          - personnel_type_id: 6
+            type: Frontend Engineer
+            hours: 20
+          - personnel_type_id: 7
+            type: Backend Engineer
+            hours: 20
+          - personnel_type_id: 8
+            type: Cloud Engineer
+            hours: 20
+          - personnel_type_id: 9
+            type: Data Engineer
+            hours: 20
+          - personnel_type_id: 10
+            type: AI Engineer
+            hours: 20

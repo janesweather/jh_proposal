@@ -1,0 +1,140 @@
+id: F
+name: Resource Planning and Allocation
+objective: >
+  To estimate the number and types of engineers needed to complete the sprints, create job postings, conduct interviews, and perform onboarding.
+est_phase_hours: 80
+est_personnel:
+  - personnel_type_id: 4
+    type: Product Owner
+    hours: 2
+  - personnel_type_id: 1
+    type: Project Manager
+    hours: 4
+  - personnel_type_id: 5
+    type: Technical Lead/Developer
+    hours: 8
+stages:
+  - id: 1
+    name: Resource Estimation
+    est_stage_hours: 24
+    est_personnel:
+      - personnel_type_id: 4
+        type: Product Owner
+        hours: 8
+      - personnel_type_id: 1
+        type: Project Manager
+        hours: 24
+      - personnel_type_id: 5
+        type: Technical Lead/Developer
+        hours: 24
+    activities:
+      - id: 1
+        name: Resource Plan
+        description:
+          - Estimate the number and types of engineers required (e.g., frontend, backend, QA).
+          - Identify any additional roles needed (e.g., DevOps, security experts).
+        est_activity_hours: 16
+        est_personnel:
+          - personnel_type_id: 4
+            type: Product Owner
+            hours: 4
+          - personnel_type_id: 1
+            type: Project Manager
+            hours: 4
+          - personnel_type_id: 5
+            type: Technical Lead/Developer
+            hours: 4
+      - id: 2
+        name: Budget Estimation
+        description:
+          - Estimate the budget required for hiring and salaries.
+        est_activity_hours: 8
+        est_personnel:
+          - personnel_type_id: 1
+            type: Project Manager
+            hours: 2
+          - personnel_type_id: 5
+            type: Technical Lead/Developer
+            hours: 2
+  - id: 2
+    name: Recruitment
+    est_stage_hours: 40
+    est_personnel:
+      - personnel_type_id: 5
+        type: Technical Lead/Developer
+        hours: 40
+      - personnel_type_id: 4
+        type: Product Owner
+        hours: 8
+      - personnel_type_id: 1
+        type: Project Manager
+        hours: 8
+    activities:
+      - id: 1
+        name: Job Postings
+        description:
+          - Create detailed job postings for each required role.
+        est_activity_hours: 16
+        est_personnel:
+          - personnel_type_id: 5
+            type: Technical Lead/Developer
+            hours: 8
+          - personnel_type_id: 4
+            type: Product Owner
+            hours: 2
+      - id: 2
+        name: Interview Process
+        description:
+          - Develop an interview process, including technical assessments and cultural fit evaluations.
+        est_activity_hours: 16
+        est_personnel:
+          - personnel_type_id: 5
+            type: Technical Lead/Developer
+            hours: 8
+          - personnel_type_id: 1
+            type: Project Manager
+            hours: 2
+      - id: 3
+        name: Candidate Selection
+        description:
+          - Conduct interviews and select the best candidates for each role.
+        est_activity_hours: 8
+        est_personnel:
+          - personnel_type_id: 5
+            type: Technical Lead/Developer
+            hours: 8
+  - id: 3
+    name: Onboarding
+    est_stage_hours: 16
+    est_personnel:
+      - personnel_type_id: 1
+        type: Project Manager
+        hours: 8
+      - personnel_type_id: 4
+        type: Product Owner
+        hours: 8
+    activities:
+      - id: 1
+        name: Onboarding Plan
+        description:
+          - Develop a comprehensive onboarding plan for new hires.
+        est_activity_hours: 8
+        est_personnel:
+          - personnel_type_id: 1
+            type: Project Manager
+            hours: 4
+          - personnel_type_id: 4
+            type: Product Owner
+            hours: 4
+      - id: 2
+        name: Training Sessions
+        description:
+          - Conduct necessary training sessions for new hires.
+        est_activity_hours: 8
+        est_personnel:
+          - personnel_type_id: 1
+            type: Project Manager
+            hours: 4
+          - personnel_type_id: 4
+            type: Product Owner
+            hours: 4

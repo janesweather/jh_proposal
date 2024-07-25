@@ -1,0 +1,202 @@
+id: E
+name: Development Planning
+objective: >
+  To prepare a detailed development plan, including creating JIRA stories and epics, ensuring the project is ready for execution over four 2-week sprints.
+est_phase_hours: 120
+est_personnel:
+  - personnel_type_id: 4
+    type: Product Owner
+    hours: 30
+  - personnel_type_id: 1
+    type: Project Manager
+    hours: 30
+  - personnel_type_id: 2
+    type: Business Analyst
+    hours: 30
+  - personnel_type_id: 3
+    type: UX Designer
+    hours: 5
+  - personnel_type_id: 5
+    type: Technical Lead/Developer
+    hours: 25
+stages:
+  - id: 1
+    name: Review and Refinement
+    est_stage_hours: 40
+    est_personnel:
+      - personnel_type_id: 4
+        type: Product Owner
+        hours: 5
+      - personnel_type_id: 1
+        type: Project Manager
+        hours: 5
+      - personnel_type_id: 2
+        type: Business Analyst
+        hours: 5
+      - personnel_type_id: 3
+        type: UX Designer
+        hours: 5
+      - personnel_type_id: 5
+        type: Technical Lead/Developer
+        hours: 5
+    activities:
+      - id: 1
+        name: Review of UX Designs and Prototypes
+        description:
+          - Conduct a thorough review of all UX designs and prototypes to ensure they are ready for development.
+        est_activity_hours: 16
+        est_personnel:
+          - personnel_type_id: 3
+            type: UX Designer
+            hours: 4
+          - personnel_type_id: 5
+            type: Technical Lead/Developer
+            hours: 4
+      - id: 2
+        name: Feature Refinement
+        description:
+          - Refine and clarify any outstanding feature details based on feedback from the UX Design Prototyping phase.
+        est_activity_hours: 16
+        est_personnel:
+          - personnel_type_id: 4
+            type: Product Owner
+            hours: 4
+          - personnel_type_id: 2
+            type: Business Analyst
+            hours: 4
+      - id: 3
+        name: Technical Feasibility Check
+        description:
+          - Verify the technical feasibility of all proposed features and designs.
+        est_activity_hours: 8
+        est_personnel:
+          - personnel_type_id: 1
+            type: Project Manager
+            hours: 4
+          - personnel_type_id: 5
+            type: Technical Lead/Developer
+            hours: 4
+  - id: 2
+    name: Backlog Creation
+    est_stage_hours: 64
+    est_personnel:
+      - personnel_type_id: 4
+        type: Product Owner
+        hours: 8
+      - personnel_type_id: 1
+        type: Project Manager
+        hours: 8
+      - personnel_type_id: 2
+        type: Business Analyst
+        hours: 8
+      - personnel_type_id: 5
+        type: Technical Lead/Developer
+        hours: 8
+    activities:
+      - id: 1
+        name: Creation of JIRA Epics
+        description:
+          - Develop high-level epics that capture major features and functionality.
+        est_activity_hours: 16
+        est_personnel:
+          - personnel_type_id: 4
+            type: Product Owner
+            hours: 4
+          - personnel_type_id: 1
+            type: Project Manager
+            hours: 4
+      - id: 2
+        name: Detailed JIRA Stories
+        description:
+          - Break down epics into detailed JIRA stories, including acceptance criteria and necessary details for implementation.
+        est_activity_hours: 16
+        est_personnel:
+          - personnel_type_id: 2
+            type: Business Analyst
+            hours: 4
+          - personnel_type_id: 5
+            type: Technical Lead/Developer
+            hours: 4
+      - id: 3
+        name: Task Estimation
+        description:
+          - Estimate the effort required for each JIRA story and assign story points.
+        est_activity_hours: 16
+        est_personnel:
+          - personnel_type_id: 1
+            type: Project Manager
+            hours: 4
+          - personnel_type_id: 5
+            type: Technical Lead/Developer
+            hours: 4
+      - id: 4
+        name: Prioritisation of Backlog
+        description:
+          - Prioritise the backlog to ensure the most critical features are developed first.
+        est_activity_hours: 16
+        est_personnel:
+          - personnel_type_id: 4
+            type: Product Owner
+            hours: 4
+          - personnel_type_id: 2
+            type: Business Analyst
+            hours: 4
+  - id: 3
+    name: Sprint Planning
+    est_stage_hours: 16
+    est_personnel:
+      - personnel_type_id: 4
+        type: Product Owner
+        hours: 2
+      - personnel_type_id: 1
+        type: Project Manager
+        hours: 2
+      - personnel_type_id: 2
+        type: Business Analyst
+        hours: 2
+      - personnel_type_id: 5
+        type: Technical Lead/Developer
+        hours: 2
+    activities:
+      - id: 1
+        name: Sprint Backlog Organization
+        description:
+          - Organise the detailed JIRA stories into four 2-week sprint backlogs.
+        est_activity_hours: 4
+        est_personnel:
+          - personnel_type_id: 1
+            type: Project Manager
+            hours: 2
+          - personnel_type_id: 2
+            type: Business Analyst
+            hours: 2
+      - id: 2
+        name: Sprint Goals and Objectives
+        description:
+          - Define clear goals and objectives for each sprint.
+        est_activity_hours: 4
+        est_personnel:
+          - personnel_type_id: 4
+            type: Product Owner
+            hours: 2
+          - personnel_type_id: 5
+            type: Technical Lead/Developer
+            hours: 2
+      - id: 3
+        name: Sprint Schedule
+        description:
+          - Develop a detailed sprint schedule, including start and end dates for each sprint.
+        est_activity_hours: 4
+        est_personnel:
+          - personnel_type_id: 4
+            type: Product Owner
+            hours: 2
+      - id: 4
+        name: Sprint Planning Meetings
+        description:
+          - Conduct sprint planning meetings with the development team to review and finalise the sprint backlogs.
+        est_activity_hours: 4
+        est_personnel:
+          - personnel_type_id: 5
+            type: Technical Lead/Developer
+            hours: 2

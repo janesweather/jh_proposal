@@ -1,0 +1,29 @@
+personnel_types:
+  - id: 1
+    type: Project Manager
+  - id: 2
+    type: Business Analyst
+  - id: 3
+    type: UX Designer
+  - id: 4
+    type: Product Owner
+  - id: 5
+    type: Technical Lead/Developer
+  - id: 6
+    type: Frontend Engineer
+  - id: 7
+    type: Backend Engineer
+  - id: 8
+    type: Cloud Engineer
+  - id: 9
+    type: Data Engineer
+  - id: 10
+    type: AI Engineer
+
+
+phases:
+  - $ref: './phases/phase_a.yaml'
+  - $ref: `./phases/phase_b.yaml'
+  - $ref: `./phases/phase_c.yaml'
+  - $ref: `./phases/phase_e.yaml'
+  - $ref: `./phases/phase_f.yaml'

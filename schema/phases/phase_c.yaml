@@ -1,0 +1,154 @@
+id: C
+name: UX Design Research
+objective: >
+  To understand the users' needs, behaviours, and context to inform and refine the proposed features and design.
+est_phase_hours: 56
+est_personnel:
+  - personnel_type_id: 3
+    type: UX Designer
+    hours: 14
+  - personnel_type_id: 2
+    type: Business Analyst
+    hours: 14
+stages:
+  - id: 1
+    name: Research Preparation
+    est_stage_hours: 32
+    est_personnel:
+      - personnel_type_id: 3
+        type: UX Designer
+        hours: 16
+      - personnel_type_id: 2
+        type: Business Analyst
+        hours: 16
+    activities:
+      - id: 1
+        name: User Research Survey
+        description:
+          - Design a survey to gather quantitative data on user needs, behaviours, and context.
+        est_activity_hours: 8
+        est_personnel:
+          - personnel_type_id: 3
+            type: UX Designer
+            hours: 4
+          - personnel_type_id: 2
+            type: Business Analyst
+            hours: 4
+      - id: 2
+        name: Interview Guide
+        description:
+          - Develop a guide for conducting user interviews to gather qualitative insights.
+        est_activity_hours: 8
+        est_personnel:
+          - personnel_type_id: 3
+            type: UX Designer
+            hours: 4
+          - personnel_type_id: 2
+            type: Business Analyst
+            hours: 4
+      - id: 3
+        name: Recruitment Plan
+        description:
+          - Identify and recruit participants for the survey and interviews, ensuring a representative sample of users.
+        est_activity_hours: 8
+        est_personnel:
+          - personnel_type_id: 3
+            type: UX Designer
+            hours: 4
+          - personnel_type_id: 2
+            type: Business Analyst
+            hours: 4
+  - id: 2
+    name: Conduct User Research
+    est_stage_hours: 48
+    est_personnel:
+      - personnel_type_id: 3
+        type: UX Designer
+        hours: 24
+      - personnel_type_id: 2
+        type: Business Analyst
+        hours: 24
+    activities:
+      - id: 1
+        name: User Research Survey Execution
+        description:
+          - Distribute the survey to the selected participants and collect responses.
+        est_activity_hours: 16
+        est_personnel:
+          - personnel_type_id: 3
+            type: UX Designer
+            hours: 8
+          - personnel_type_id: 2
+            type: Business Analyst
+            hours: 8
+      - id: 2
+        name: User Research Interviews
+        description:
+          - Conduct interviews with selected users to gain in-depth understanding of their needs, behaviours, and context.
+        est_activity_hours: 16
+        est_personnel:
+          - personnel_type_id: 3
+            type: UX Designer
+            hours: 8
+          - personnel_type_id: 2
+            type: Business Analyst
+            hours: 8
+      - id: 3
+        name: Refinement of User Personas
+        description:
+          - Update and refine user personas based on the survey and interview data.
+        est_activity_hours: 16
+        est_personnel:
+          - personnel_type_id: 3
+            type: UX Designer
+            hours: 8
+          - personnel_type_id: 2
+            type: Business Analyst
+            hours: 8
+  - id: 3
+    name: Post-research Analysis
+    est_stage_hours: 32
+    est_personnel:
+      - personnel_type_id: 3
+        type: UX Designer
+        hours: 16
+      - personnel_type_id: 2
+        type: Business Analyst
+        hours: 16
+    activities:
+      - id: 1
+        name: User Research Report
+        description:
+          - Compile a comprehensive report on user research findings, including key takeaways and actionable insights.
+        est_activity_hours: 16
+        est_personnel:
+          - personnel_type_id: 3
+            type: UX Designer
+            hours: 8
+          - personnel_type_id: 2
+            type: Business Analyst
+            hours: 8
+      - id: 2
+        name: Feature Refinement
+        description:
+          - Revisit and refine the proposed features based on the research findings.
+        est_activity_hours: 8
+        est_personnel:
+          - personnel_type_id: 3
+            type: UX Designer
+            hours: 4
+          - personnel_type_id: 2
+            type: Business Analyst
+            hours: 4
+      - id: 3
+        name: Presentation of Findings
+        description:
+          - Present the research findings and refined features to project stakeholders.
+        est_activity_hours: 8
+        est_personnel:
+          - personnel_type_id: 3
+            type: UX Designer
+            hours: 4
+          - personnel_type_id: 2
+            type: Business Analyst
+            hours: 4

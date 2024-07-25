@@ -1,0 +1,115 @@
+id: D
+name: UX Design Prototyping
+objective: >
+  To create and refine prototypes based on user feedback, ensuring the design meets user needs and project goals.
+est_phase_hours: 112
+est_personnel:
+  - personnel_type_id: 3
+    type: UX Designer
+    hours: 112
+stages:
+  - id: 1
+    name: Low-Fidelity Prototyping
+    est_stage_hours: 40
+    est_personnel:
+      - personnel_type_id: 3
+        type: UX Designer
+        hours: 40
+    activities:
+      - id: 1
+        name: Low-Fidelity Prototypes
+        description:
+          - Create initial low-fidelity prototypes to visualise basic layouts and interactions.
+        est_activity_hours: 16
+        est_personnel:
+          - personnel_type_id: 3
+            type: UX Designer
+            hours: 16
+      - id: 2
+        name: User Testing Sessions
+        description:
+          - Conduct user interviews and usability testing sessions to gather feedback on the low-fidelity prototypes.
+        est_activity_hours: 16
+        est_personnel:
+          - personnel_type_id: 3
+            type: UX Designer
+            hours: 16
+      - id: 3
+        name: Feedback Analysis
+        description:
+          - Analyse feedback from user testing sessions to identify areas for improvement.
+        est_activity_hours: 8
+        est_personnel:
+          - personnel_type_id: 3
+            type: UX Designer
+            hours: 8
+  - id: 2
+    name: High-Fidelity Prototyping
+    est_stage_hours: 56
+    est_personnel:
+      - personnel_type_id: 3
+        type: UX Designer
+        hours: 56
+    activities:
+      - id: 1
+        name: High-Fidelity Prototypes
+        description:
+          - Develop detailed high-fidelity prototypes with refined design elements and interactions.
+        est_activity_hours: 24
+        est_personnel:
+          - personnel_type_id: 3
+            type: UX Designer
+            hours: 24
+      - id: 2
+        name: User Testing Sessions
+        description:
+          - Conduct additional user interviews and usability testing sessions to gather feedback on the high-fidelity prototypes.
+        est_activity_hours: 16
+        est_personnel:
+          - personnel_type_id: 3
+            type: UX Designer
+            hours: 16
+      - id: 3
+        name: Refinement of Prototypes
+        description:
+          - Refine and iterate on the high-fidelity prototypes based on user feedback.
+        est_activity_hours: 16
+        est_personnel:
+          - personnel_type_id: 3
+            type: UX Designer
+            hours: 16
+  - id: 3
+    name: Final Presentation
+    est_stage_hours: 16
+    est_personnel:
+      - personnel_type_id: 3
+        type: UX Designer
+        hours: 16
+    activities:
+      - id: 1
+        name: Final Designs
+        description:
+          - Compile the final high-fidelity prototypes and user flows into a comprehensive design document.
+        est_activity_hours: 8
+        est_personnel:
+          - personnel_type_id: 3
+            type: UX Designer
+            hours: 8
+      - id: 2
+        name: Presentation to Stakeholders
+        description:
+          - Present the final designs and user flows to project stakeholders, explaining the design decisions and how they address user needs.
+        est_activity_hours: 4
+        est_personnel:
+          - personnel_type_id: 3
+            type: UX Designer
+            hours: 4
+      - id: 3
+        name: Feedback Integration
+        description:
+          - Gather and integrate any final feedback from stakeholders to ensure the designs meet all project requirements.
+        est_activity_hours: 4
+        est_personnel:
+          - personnel_type_id: 3
+            type: UX Designer
+            hours: 4

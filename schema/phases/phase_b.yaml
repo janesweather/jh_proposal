@@ -1,0 +1,226 @@
+id: B
+name: Ideation
+objective: >
+  To collaboratively generate and prioritise ideas for new features, ensuring alignment with the construction company's needs and strategic vision.
+est_phase_hours: 88
+est_personnel:
+  - personnel_type_id: 4
+    type: Product Owner
+    hours: 32
+  - personnel_type_id: 1
+    type: Project Manager
+    hours: 32
+  - personnel_type_id: 2
+    type: Business Analyst
+    hours: 32
+  - personnel_type_id: 3
+    type: UX Designer
+    hours: 32
+stages:
+  - id: 1
+    name: Ideation Session Preparation
+    est_stage_hours: 32
+    est_personnel:
+      - personnel_type_id: 4
+        type: Product Owner
+        hours: 8
+      - personnel_type_id: 1
+        type: Project Manager
+        hours: 8
+      - personnel_type_id: 2
+        type: Business Analyst
+        hours: 8
+      - personnel_type_id: 3
+        type: UX Designer
+        hours: 8
+    activities:
+      - id: 1
+        name: Agenda and Materials
+        description:
+          - Develop the session agenda.
+          - Prepare materials such as templates for mind mapping, SWOT analysis, and user journey mapping.
+        est_activity_hours: 12
+        est_personnel:
+          - personnel_type_id: 1
+            type: Project Manager
+            hours: 4
+          - personnel_type_id: 2
+            type: Business Analyst
+            hours: 4
+          - personnel_type_id: 3
+            type: UX Designer
+            hours: 4
+      - id: 2
+        name: Stakeholder Invitations
+        description:
+          - Identify and invite key stakeholders to the session.
+          - Distribute pre-reading materials if necessary.
+        est_activity_hours: 10
+        est_personnel:
+          - personnel_type_id: 4
+            type: Product Owner
+            hours: 5
+          - personnel_type_id: 1
+            type: Project Manager
+            hours: 5
+      - id: 3
+        name: Environment Setup
+        description:
+          - Arrange the physical or virtual meeting space to facilitate collaboration.
+        est_activity_hours: 10
+        est_personnel:
+          - personnel_type_id: 1
+            type: Project Manager
+            hours: 5
+          - personnel_type_id: 2
+            type: Business Analyst
+            hours: 5
+  - id: 2
+    name: Ideation Session
+    est_stage_hours: 32
+    est_personnel:
+      - personnel_type_id: 4
+        type: Product Owner
+        hours: 16
+      - personnel_type_id: 1
+        type: Project Manager
+        hours: 16
+      - personnel_type_id: 2
+        type: Business Analyst
+        hours: 16
+      - personnel_type_id: 3
+        type: UX Designer
+        hours: 16
+      - personnel_type_id: 5
+        type: Technical Lead/Developer
+        hours: 16
+    activities:
+      - id: 1
+        name: Strategic Vision Statement
+        description:
+          - Craft a succinct statement that captures the ideal outcome of the project.
+        est_activity_hours: 8
+        est_personnel:
+          - personnel_type_id: 4
+            type: Product Owner
+            hours: 4
+          - personnel_type_id: 1
+            type: Project Manager
+            hours: 4
+      - id: 2
+        name: Brainstorming Activities
+        description:
+          - Conduct structured brainstorming sessions using techniques such as mind mapping, SWOT analysis, and user journey mapping.
+          - Encourage open and creative thinking to generate a wide range of ideas.
+        est_activity_hours: 8
+        est_personnel:
+          - personnel_type_id: 2
+            type: Business Analyst
+            hours: 8
+      - id: 3
+        name: Feature Compilation
+        description:
+          - Gather all proposed features and ideas into a comprehensive list.
+        est_activity_hours: 8
+        est_personnel:
+          - personnel_type_id: 3
+            type: UX Designer
+            hours: 8
+      - id: 4
+        name: Feature Prioritisation
+        description:
+          - Rank the proposed features based on business value, user needs, feasibility, and alignment with the strategic vision.
+        est_activity_hours: 8
+        est_personnel:
+          - personnel_type_id: 4
+            type: Product Owner
+            hours: 8
+      - id: 5
+        name: Subset of Selected Features
+        description:
+          - Select a prioritised subset of features to focus on for the next phases.
+        est_activity_hours: 8
+        est_personnel:
+          - personnel_type_id: 1
+            type: Project Manager
+            hours: 8
+      - id: 6
+        name: User Personas
+        description:
+          - Develop detailed user personas that represent the primary user groups, capturing their needs, behaviours, and pain points.
+        est_activity_hours: 8
+        est_personnel:
+          - personnel_type_id: 2
+            type: Business Analyst
+            hours: 8
+      - id: 7
+        name: High-Level Roadmap and Milestones
+        description:
+          - Outline an initial roadmap with key milestones for the development of the selected features.
+        est_activity_hours: 8
+        est_personnel:
+          - personnel_type_id: 3
+            type: UX Designer
+            hours: 8
+  - id: 3
+    name: Post-ideation Follow-up
+    est_stage_hours: 24
+    est_personnel:
+      - personnel_type_id: 4
+        type: Product Owner
+        hours: 8
+      - personnel_type_id: 1
+        type: Project Manager
+        hours: 8
+      - personnel_type_id: 2
+        type: Business Analyst
+        hours: 8
+      - personnel_type_id: 3
+        type: UX Designer
+        hours: 8
+    activities:
+      - id: 1
+        name: Refined List of Features
+        description:
+          - Review and refine the list of proposed features based on the session outcomes.
+        est_activity_hours: 4
+        est_personnel:
+          - personnel_type_id: 4
+            type: Product Owner
+            hours: 4
+      - id: 2
+        name: Document Strategic Vision
+        description:
+          - Finalise and document the strategic vision statement.
+        est_activity_hours: 4
+        est_personnel:
+          - personnel_type_id: 1
+            type: Project Manager
+            hours: 4
+      - id: 3
+        name: Detailed User Personas
+        description:
+          - Finalise the user personas based on session input.
+        est_activity_hours: 4
+        est_personnel:
+          - personnel_type_id: 2
+            type: Business Analyst
+            hours: 4
+      - id: 4
+        name: Initial Roadmap
+        description:
+          - Develop a high-level roadmap with key milestones for the selected features.
+        est_activity_hours: 4
+        est_personnel:
+          - personnel_type_id: 3
+            type: UX Designer
+            hours: 4
+      - id: 5
+        name: Ideation Session Summary
+        description:
+          - Document and distribute a summary of the ideation session, including key discussions, decisions, and action items.
+        est_activity_hours: 8
+        est_personnel:
+          - personnel_type_id: 1
+            type: Project Manager
+            hours: 8

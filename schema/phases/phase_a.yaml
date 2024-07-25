@@ -1,0 +1,184 @@
+id: A
+name: Project Kick-off
+objective: >
+  To align all stakeholders on the project's goals, scope, timelines, and responsibilities, ensuring a shared understanding and commitment to the project's success.
+est_phase_hours: 74
+est_personnel:
+  - personnel_type_id: 1
+    type: Project Manager
+    hours: 104
+  - personnel_type_id: 2
+    type: Business Analyst
+    hours: 96
+stages:
+  - id: 1
+    name: Pre-meeting Preparation
+    est_stage_hours: 28
+    est_personnel:
+      - personnel_type_id: 1
+        type: Project Manager
+        hours: 104
+      - personnel_type_id: 2
+        type: Business Analyst
+        hours: 96
+    activities:
+      - id: 1
+        name: Meeting Agenda
+        description:
+          - Develop a detailed agenda for the kick-off meeting.
+        est_activity_hours: 8
+        est_personnel:
+          - personnel_type_id: 1
+            type: Project Manager
+            hours: 8
+          - personnel_type_id: 2
+            type: Business Analyst
+            hours: 8
+      - id: 2
+        name: Presentation Materials
+        description:
+          - Prepare presentation materials that summarize the project charter, plan, resource allocation, communication plan, and risk assessment.
+        est_activity_hours: 16
+        est_personnel:
+          - personnel_type_id: 1
+            type: Project Manager
+            hours: 16
+          - personnel_type_id: 2
+            type: Business Analyst
+            hours: 16
+      - id: 3
+        name: Logistics Planning
+        description:
+          - Ensure all logistical aspects of the meeting are planned and arranged.
+        est_activity_hours: 4
+        est_personnel:
+          - personnel_type_id: 1
+            type: Project Manager
+            hours: 4
+          - personnel_type_id: 2
+            type: Business Analyst
+            hours: 4
+      - id: 4
+        name: Project Charter Draft
+        description:
+          - Draft the project's purpose, scope, objectives, and constraints. Outline preliminary roles and responsibilities of all team members and stakeholders.
+        est_activity_hours: 32
+        est_personnel:
+          - personnel_type_id: 1
+            type: Project Manager
+            hours: 32
+      - id: 5
+        name: Stakeholder Identification
+        description:
+          - Identify and document all key stakeholders. Establish preliminary communication channels and protocols for stakeholder engagement.
+        est_activity_hours: 8
+        est_personnel:
+          - personnel_type_id: 1
+            type: Project Manager
+            hours: 8
+      - id: 6
+        name: Draft Project Plan
+        description:
+          - Develop a high-level draft project plan, including key phases, milestones, and timelines. Identify any critical dependencies and potential risks.
+        est_activity_hours: 32
+        est_personnel:
+          - personnel_type_id: 1
+            type: Project Manager
+            hours: 32
+      - id: 7
+        name: Resource Plan
+        description:
+          - Prepare an initial resource allocation plan, including personnel, tools, and budget requirements.
+        est_activity_hours: 32
+        est_personnel:
+          - personnel_type_id: 1
+            type: Project Manager
+            hours: 32
+      - id: 8
+        name: Communication Plan Draft
+        description:
+          - Develop a draft communication plan outlining how and when updates will be shared with stakeholders. Set expectations for regular check-ins and status reports.
+        est_activity_hours: 32
+        est_personnel:
+          - personnel_type_id: 1
+            type: Project Manager
+            hours: 32
+      - id: 9
+        name: Initial Risk Assessment
+        description:
+          - Conduct an initial risk assessment to identify potential risks and their mitigation strategies.
+        est_activity_hours: 32
+        est_personnel:
+          - personnel_type_id: 1
+            type: Project Manager
+            hours: 32
+  - id: 2
+    name: Kick-off Meeting
+    est_stage_hours: 8
+    est_personnel:
+      - personnel_type_id: 1
+        type: Project Manager
+        hours: 8
+      - personnel_type_id: 2
+        type: Business Analyst
+        hours: 8
+    activities:
+      - id: 1
+        name: Conduct Kick-off Meeting
+        description:
+          - Facilitate a meeting to align all stakeholders on the project's goals, scope, timelines, and responsibilities.
+        est_activity_hours: 8
+        est_personnel:
+          - personnel_type_id: 1
+            type: Project Manager
+            hours: 8
+          - personnel_type_id: 2
+            type: Business Analyst
+            hours: 8
+  - id: 3
+    name: Post-meeting Follow-up
+    est_stage_hours: 10
+    est_personnel:
+      - personnel_type_id: 1
+        type: Project Manager
+        hours: 12
+      - personnel_type_id: 2
+        type: Business Analyst
+        hours: 10
+    activities:
+      - id: 1
+        name: Meeting Summary
+        description:
+          - Document the key discussions, decisions, and action items from the kick-off meeting.
+        est_activity_hours: 4
+        est_personnel:
+          - personnel_type_id: 1
+            type: Project Manager
+            hours: 4
+          - personnel_type_id: 2
+            type: Business Analyst
+            hours: 4
+      - id: 2
+        name: Document Distribution
+        description:
+          - Finalize and distribute all documentation based on the meeting's outcomes.
+        est_activity_hours: 4
+        est_personnel:
+          - personnel_type_id: 1
+            type: Project Manager
+            hours: 4
+          - personnel_type_id: 2
+            type: Business Analyst
+            hours: 4
+      - id: 3
+        name: Communication Channels
+        description:
+          - Establish and confirm communication channels for ongoing project updates.
+        est_activity_hours: 2
+        est_personnel:
+          - personnel_type_id: 1
+            type: Project Manager
+            hours: 2
+          - personnel_type_id: 2
+            type: Business Analyst
+            hours: 2
